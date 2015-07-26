@@ -183,16 +183,16 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\DSC00101.JPG" />
-    <Content Include="Content\DSCF2708.jpg" />
-    <Content Include="Content\DSC_0009.JPG" />
-    <Content Include="Content\DSC_5096.jpg" />
-    <Content Include="Content\file6121341162988.jpg" />
-    <Content Include="Content\finished26.jpg" />
-    <Content Include="Content\IMG_8981.JPG" />
-    <Content Include="Content\P7230137.JPG" />
-    <Content Include="Content\Parliament night.jpg" />
-    <Content Include="Content\Rochester_City_View_Summer_Ford_St_Bridge_15.jpg" />
+    <Content Include="Content\City3.JPG" />
+    <Content Include="Content\City4.jpg" />
+    <Content Include="Content\City1.JPG" />
+    <Content Include="Content\City2.jpg" />
+    <Content Include="Content\City5.jpg" />
+    <Content Include="Content\City6.jpg" />
+    <Content Include="Content\City7.JPG" />
+    <Content Include="Content\City8.JPG" />
+    <Content Include="Content\City9.jpg" />
+    <Content Include="Content\City10.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -247,6 +247,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\_HomeTopPartialPane.cshtml" />
+    <Content Include="Views\Home\_HomeSubPartialPane.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

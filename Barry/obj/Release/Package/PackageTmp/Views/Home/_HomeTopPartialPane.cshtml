@@ -1,0 +1,34 @@
+﻿<div>
+    <div id="rotatingWallPapers">
+
+    </div>
+
+    <div id="toppane_nav" class="">
+        <ul id="nav_list">
+            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            <li>@Html.ActionLink("About", "About", "Home")</li>
+            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+        </ul>
+
+    </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        initWallPaper();
+        window.setInterval(
+            function () {
+                var images = ['City1.jpg', 'City2.jpg', 'City3.jpg', 'City4.jpg', 'City5.jpg'];
+                $('#rotatingWallPapers').css({ 'background-image': 'url(content/' + images[Math.floor(Math.random() * images.length)] + ')' });
+            }
+            , 3000);
+    });
+
+    function initWallPaper() {
+        $('#rotatingWallPapers').css({ 'background-image': 'url(content/city1.jpg)' });
+    }
+
+
+
+</script>

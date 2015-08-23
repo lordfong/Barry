@@ -1,0 +1,111 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+a:hover { 
+    background-color: yellow;
+    cursor:pointer;
+}
+
+#rotatingWallPapers {
+    position:relative;
+    top:-55px;
+    height: 1300px;
+    max-height: 600px;
+    max-width: 2000px;
+    background-size: 2000px 1500px;
+    background-repeat: no-repeat;
+}
+
+.toppane_nav {
+    background-color: beige;
+    position: relative;
+    font-size: 22px !important;
+    padding-left: 271px;
+    top: -680px;
+    opacity: 0.8;
+}
+
+#breadcrumbs {
+    top: -702px !important;
+    padding-left:25px!important;
+}
+
+#sub_nav {
+    top: -185px!important;
+    padding-left:10px !important;
+}
+
+#nav_list li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    font-size: 150%;
+    padding: 10px 75px 10px 10px;
+    opacity: 0.4;
+}
+
+#subPane img, li {
+    height: 290px;
+    width: 385px;
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+#subPane,.sub_nav_description {
+    position:relative;
+    top:-100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.subPaneHeader {
+    height: 290px;
+    width: 385px;
+    max-height: 400px;
+    max-width: 500px;
+    display: inline-block;
+    padding-right:40px;
+}
+
+.paneHeader {
+    position: relative;
+    z-index: 100;
+    color: black;
+    font-weight: bold;
+    font-size: 33px;
+    top: -230px;
+    left: 250px;
+    background-color:brown;
+    opacity:0.8;
+    width:100px;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration-color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="content/site.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            initWallPaper();
+            window.setInterval(
+                function () {
+                    var images = ['City1.jpg', 'City8.jpg', 'City3.jpg', 'City10.jpg', 'City5.jpg'];
+                    $('#rotatingWallPapers').css({ 'background-image': 'url(content/' + images[Math.floor(Math.random() * images.length)] + ')' });
+                }
+                , 3000);
+        });
+
+        function initWallPaper() {
+            $('#rotatingWallPapers').css({ 'background-image': 'url(content/city1.jpg)' });
+        }
+
+
+
+    </script>
+
+</head>
+<body>
+    <div>
+        <div id="rotatingWallPapers">
+
+        </div>
+
+        <div id="" class="toppane_nav">
+            <ul id="nav_list">
+                <li><a href="index.html">Cross DreamLands</a></li>
+                <li><a href="Netherlands.html">Netherlands</a></li>
+                <li><a>Trip planner</a></li>
+                <li><a>Sign up</a></li>
+                <li><a>Login</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div id="subPane">
+
+
+        <div class="subPaneHeader">
+            <img src="Content/City6.jpg">
+            <div class="paneHeader">
+                XXX
+            </div>
+        </div>
+
+        <div class="subPaneHeader">
+            <img src="Content/City10.jpg">
+            <div class="paneHeader">
+                XXX
+            </div>
+        </div>
+        <div class="subPaneHeader">
+            <img src="Content/City9.jpg">
+            <div class="paneHeader">
+                XXX
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
